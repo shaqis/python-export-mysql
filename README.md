@@ -76,7 +76,7 @@ If you need to install dependencies first:
 
 shaqis: can show me the command example
 
-GitHub Copilot: # Command Examples to Run mysql_to_csv.py
+# Command Examples to Run mysql_to_csv.py
 
 Here are specific command examples to run your MySQL to CSV export script:
 
@@ -119,7 +119,7 @@ Make sure you have a valid config.ini file in the directory (or specify a differ
 
 This can work with python 3
 
-GitHub Copilot: Yes, this script works well with Python 3. Here are some command examples to run it:
+This script works well with Python 3. Here are some command examples to run it:
 
 ### Basic Command Examples
 
@@ -188,7 +188,7 @@ error: externally-managed-environment
 note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
 hint: See PEP 668 for the detailed specification.
 
-GitHub Copilot: # Setting Up a Virtual Environment for Your Script
+# Setting Up a Virtual Environment for Your Script
 
 You're encountering this error because you're using a Debian-based system that uses an externally managed Python environment (following PEP 668). The recommended approach is to create a virtual environment:
 
