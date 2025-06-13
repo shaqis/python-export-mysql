@@ -39,7 +39,7 @@ python mysql_to_csv.py --table customers --output data/exports
 This will create a timestamped CSV file like `data/exports/customers_20230715_120530.csv`
 
 
-shaqis: how to run this python code
+How to run this python code
 
 VS Code: To run the Python code in your file `mysql_to_csv.py`, you have several options. Since you're using a Mac, here are the steps:
 
@@ -117,7 +117,7 @@ python mysql_to_csv.py --pattern "order_.*" --config production.ini --output exp
 
 Make sure you have a valid config.ini file in the directory (or specify a different one with `--config`) that contains your database connection details.
 
-shaqis: this can work with python 3
+This can work with python 3
 
 GitHub Copilot: Yes, this script works well with Python 3. Here are some command examples to run it:
 
