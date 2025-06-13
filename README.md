@@ -41,7 +41,7 @@ This will create a timestamped CSV file like `data/exports/customers_20230715_12
 
 How to run this python code
 
-VS Code: To run the Python code in your file `mysql_to_csv.py`, you have several options. Since you're using a Mac, here are the steps:
+To run the Python code in your file `mysql_to_csv.py`, you have several options. Since you're using a Mac, here are the steps:
 
 1. Open the Terminal in VS Code by selecting **Terminal > New Terminal** from the menu.
 
