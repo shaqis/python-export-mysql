@@ -29,6 +29,9 @@ python mysql_to_csv.py --table your_table_name --config path/to/config.ini --out
 - `--table`: (Required) The name of the table to export
 - `--config`: (Optional) Path to configuration file (default: config.ini)
 - `--output`: (Optional) Directory to save CSV files (default: ./output)
+- `--encoding`: (Optional) CSV encoding (default: utf-8; use `utf-8-sig` for Excel)
+
+Credentials can also be supplied via environment variables, which override `config.ini`: `MYSQL_HOST`, `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_PORT`.
 
 ## Example
 
